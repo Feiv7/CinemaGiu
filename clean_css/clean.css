@@ -363,10 +363,7 @@ footer{
     font-size: 4rem;
     text-decoration: underline;
 }
-.film-affiche .film-info p::before{
-    
-    
-}
+
 .cat {
     display: inline-block;
     font-size: 2rem;
