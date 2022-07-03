@@ -390,6 +390,13 @@ footer{
         display: none;
         
     }
+    .film-affiche img{
+        display: none;
+    }
+    .film-affiche{
+        grid: none;
+        max-width: 80%;
+    }
     .parent-modale .modale img, .parent-modale .modale figcaption{
         display: block;
         width: 100% ;
@@ -408,15 +415,4 @@ footer{
         font-size: 1.2rem;
     }
 }
-@media screen and (max-height: 600px){
-    .parent-modale .modale{
-        overflow: hidden;
-        overflow-block: scroll;
 
-        max-height: 20rem;
-    }
-    .parent-modale .modale img, .parent-modale .modale figcaption{
-        display: inline-block;
-        width: calc(100% / 2  - 1rem);
-    }
-}
