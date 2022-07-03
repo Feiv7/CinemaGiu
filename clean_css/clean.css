@@ -386,10 +386,6 @@ footer{
     }
 }
 @media screen and (max-width: 900px){
-    header h1 img{
-        display: none;
-        
-    }
     .film-affiche img{
         display: none;
     }
@@ -416,3 +412,8 @@ footer{
     }
 }
 
+@media screen and (max-width: 800px){
+    header a h1 img{
+        display: none;
+    }
+}
